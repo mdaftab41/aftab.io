@@ -1,70 +1,220 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>alam website</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-  <table cellspacing="20">
-    <tr>
-      <td><img class="profile" src="IMG.jpeg" alt="AFTAB PROFILE" width="150" height="150"></td>
-      <td><h1>MD AFTAB ALAM </h1>
-        <P>B.tech in cse from:<strong> <em><a href="https://srmuniversity.ac.in/">srm university</a></em><strong></P>
-        <p>I am student also a <u>webdevloper</u>. I love coffee and tee</p></td>
-    </tr>
-
-  </table>
-  <hr>
-  <h3>Book and study</h3>
-  <ul style="list-style-type:square;">
-    <li>I completed c ,c++</li>
-    <li>also python</li>
-    <li>I study web development</li>
-  </ul>
-  <hr>
-  <h3>About me</h3>
-  <ul>
-    <li><a href="hobbies.html">MY Hobbies</a></li>
-    <li><a href="contact-me.html">my Contact Detail</a></li>
-  </ul>
-  <hr>
-  <h3>Class 12<sup>th</sup>marks</h3>
-  <table>
-    <thead>
-      <tr style="background-color:yellow;">
-        <th>Subject</th>
-        <th>Marks</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Mathematics</td>
-        <td>95</td>
-        
-      </tr>
-      <tr>
-        <td>Chemistry</td>
-        <td>93</td>
-        
-      </tr>
-      <tr>
-        <td>Physics</td>
-        <td>84</td>
-        
-      </tr>
-      <tr>
-        <td>English</td>
-        <td>78</td>
-         
-      </tr>
-      <tr>
-        <td>Hindi</td>
-          <td>88</td>
-      </tr>
-    </tbody>
-
-  </table>
-
-</body>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--font awesome-->
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <!--google font-->
+    <link href="//db.onlinewebfonts.com/c/c144af7d488f9069913d40dee3cd1f70?family=Algerian" rel="stylesheet" type="text/css"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;900&family=Ubuntu:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <!--bootstrap-->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0-alpha1/js/bootstrap.min.js"
+      integrity="sha512-eHx4nbBTkIr2i0m9SANm/cczPESd0DUEcfl84JpIuutE6oDxPhXvskMR08Wmvmfx5wUpVjlWdi82G5YLvqqJdA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#">
+        <img src="images/aaiye na hmra bihar me.png" alt="logo" class="logo">
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#home"
+                >Home <span class="sr-only"></span
+              ></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">tour</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#con">contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#plan">about</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="wrapper">
+      <header>
+        <img src="images/rice.jpg" id="image" alt="rajgir-image" class="bg" />
+        <img src="images/Ashoka_Pillar_Stupa2-removebg-preview.png" id="image" alt="" class="fg" />
+        <h1 class="tittle">WELCOME TO BIHAR !</h1>
+      </header>
+      <section>
+        <div id="home">
+        <h2 class="around" >Travel Around The Bihar</h2>
+        <p>Don't wait until tomorrow, discover your adventure now and feel the sensation of closeness to nature aruond you, to get the best of you just need to leave and go where you like.</p>
+        </div>
+        <div class="about-us">
+        <img src="images/darbhanga3.png" id="darbhanga" alt="darbhanga" />
+        <p class="travel">We Are The Best Travel Agent</p>
+        <h3 class="last">  Our most popular activites are Trekking, Rafting, Windsurfing and Paragliding</h3>
+        <h3 class="last">Travel around the Bihar to see the beauty of nature easily and safely with AAIYE NA HAMRA BIHAR ME. Every one is young once but not everyone has traveled the Bihar</h3>
+    </div>
+  </section>
+    <!--Top value-->
+    <div id="plan">
+      <div class="try">
+       <p class="top">Top values for you</p>
+       <h3 class="value">Try varity of benefits when using our services</h3>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 plan-box">
+          <i class="fa-regular fa-pen-field"></i>
+          <h3 class="enjoy">Plan a Trip</h3>
+          <p class="plan">Discover some of the most unique and fulfilling experiences your nextdestination has to offer Providing the best.</p>
+        </div>
+        <div class="col-lg-4 plan-box"> 
+          <i class="fa-light fa-message-dollar"></i>
+          <h3 class="enjoy">Explore and Save</h3>
+          <p class="plan">Discover some of the most unique and fulfilling experiences your nextdestination has to offer Providing the best.</p>
+        </div>
+        <div class="col-lg-4 plan-box">
+          <i class="fa-regular fa-broccoli"></i>
+          <h3  class="enjoy">Enjoy Your Trip</h3>
+          <p class="plan"> Discover some of the most unique and fulfilling experiences your nextdestination has to offer Providing the best.</p>
+        </div>
+      </div>
+    </div>
+    <!--tour-->
+    <section id="testimonials">
+      <div id="testimonial-carousel" class="carousel slide" data-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="2"></button>
+          <button type="button" data-bs-target="#testimonial-carousel" data-bs-slide-to="3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <p class="testimonial-text">
+              The Tomb of Sher Shah Suri is in Sasaram in Rohtas district of Bihar. The construction work of this tomb was started by Sher Shah himself and completed by his son and successor Islam Shah some 3 months after the death of Sher Shah in 1545 A.D
+            </p>
+            <img
+              src="images/SHASA RAM.jpg"
+              class="testimonials-image center"
+              alt="shasaram in bihar"
+            />
+            </div>
+          <div class="carousel-item">
+            <p class="testimonial-text">
+              Nalanda University was one of the world's first residential universities, as it had dormitories for students.It is also one of the most famous universities. In its heyday it accommodated over 10,000 students and 2,000 teachers.The university was considered an architectural masterpiece, and was marked by a lofty wall and one gate.Nalanda had eight separate compounds and ten temples, along with many meditation halls and classrooms.
+            </p>
+            <img
+              class="testimonials-image center"
+              src="images/nalanda-univ.jpg"
+              alt="nalanda-university"
+            />
+            </div>
+          <div class="carousel-item">
+            <p class="testimonial-text">
+              Tutula Bhawani is located nearby Tilauthu and approximately 20 Km south west from Dehri-on-Sone.The two large mountains one from north west and another from south east at converge to create a green valley which stretches to 1 mile ,there's a spring fall in the middle and from the middle of the valley a kachuar river flows. All this creates a fascinating scene, from east this valley stretches 300 M wick wharves, from west it shrinks to only 50M from west a spring fall is created which falls from a height of 200 M.   
+            </p>
+            <img
+              class="testimonials-image center"
+              src="images/rohtash bihar.jpg"
+              alt="water fall in bihar"
+            />
+          </div>
+          <div class="carousel-item">
+            <p class="testimonial-text">
+              Gol Ghar is a round house built on the banks of River Ganga in Patna, Bihar. Originally designed as a storehouse, this structure was built in the year 1786 by Captain John Garstin.the Gol Ghar provides the visitors with panoramic views of the River Ganga.
+            </p>
+            <img
+              class="testimonials-image center"
+              src="images/patna golghar.jpg"
+              alt="patna"
+            />
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">next</span>
+        </a>
+      </div>
+    </section>
+    <!--contact me-->
+    <div class="contact-massage" id="con">
+      <h class="touch">Get In Touch</h2>
+      <p class="let">Let's Don't Miss The 50% Discount And Explore The Beauty of The Bihar</p>
+      <a class="btn btn-primary" href="mailto:mdaftabalam49041@email.com">Get Start</a>
+    </div>
+  </div>
+  
+  
+  <div class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/md-aftab-alam-1bba22237"><i class="fa-brands fa-linkedin icon linkedin"></i></a>
+    <a class="footer-link" href="https://www.instagram.com/aftab9631/?igshid=YzgyMTM2MGM%3D"><i class="fa-brands fa-square-instagram icon"></i></a>
+    <a class="footer-link" href="https://github.com/mdaftab41"><i class="fa-brands fa-github icon"></i></a>
+    <a class="footer-link" href="https://m.facebook.com/bookmarks/"><i class="fa-brands fa-facebook icon"></i></a><br>
+    <a href="https://www.youtube.com/watch?v=RIUqSA7kHZo" class="copyright">AAIYE NA HAMRA BIHAR ME</a>
+  </div>
+    <script src="" async defer></script>
+  </body>
 </html>
